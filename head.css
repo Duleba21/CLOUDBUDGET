@@ -7,11 +7,16 @@ p{
     display: flex;
     color: #fff;
     margin-right: 161px;
-    display: flex;
+    text-transform: none;
 }
 img{
     width: 29px;
     height: 29px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
 }
 li{
     font-family: Lato, sans-serif;
@@ -21,10 +26,42 @@ li{
     line-height: 1.21;
     display: flex;
     color: #fff;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .navigation a{
 font-family: Lato, sans-serif;
 font-weight: 400;
 font-style: normal;
-
+font-size: 1.8rem;
+line-height: 1.22;
+color: #fff;
+display: flex;
+text-transform: none;
+}
+a > p {
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 1.22;
+    color: #fff;
+    display: flex;
+    flex-direction: column;  
+    text-decoration: none;
+}
+.button > a{
+    width: 100px;
+    height: 40px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.21;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px;
 }
